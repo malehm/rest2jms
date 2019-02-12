@@ -1,0 +1,7 @@
+version: '3'
+services:
+  rest2jms:
+    build: .
+    ports:
+      - "8080:8080"
+      - "9990:9990"
